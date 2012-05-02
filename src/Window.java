@@ -62,7 +62,7 @@ public class Window {
 			JOptionPane.showMessageDialog(null, "Could not create display");
 			e.printStackTrace();
 		}
-		p1 = new Player(10, 1.5f, -90, 0.005f, 0.05f);
+		p1 = new Player(10, 1.5f, -90, 0.0005f, 0.01f);
 		s = new Sector();
 	}
 	
