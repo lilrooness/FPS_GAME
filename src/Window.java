@@ -111,7 +111,7 @@ public class Window {
 			GL11.glVertex3f(0, 0, 20);
 			GL11.glEnd();
 			GL11.glEnable(GL11.GL_TEXTURE_2D);
-			handleCollisions();
+			//handleCollisions();
 			pollInput();
 			Display.update();
 		}
@@ -162,12 +162,12 @@ public class Window {
 			}
 		}
 		
-		/*
+		
 		//check sector block collisions
 		for(int i=0; i<s.getMiddle().size(); i++){
 			if(Collisions.rayBox(p1, s.getMiddle().get(i), 3)){
 				p1.revert();
 			}
-		}*/
+		}
 	}
 }
